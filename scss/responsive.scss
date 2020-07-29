@@ -9,14 +9,14 @@
       a {
         text-align: center;
         &:hover {
-          color: #B2D235;
+          color: $color_green;
         }
       }
     }
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 700px) {
+@media only screen and (max-width: 768px) and (min-width: 650px) {
   .header {
     .img-logo {
       width: 300px;
@@ -32,25 +32,7 @@
     ul.menu {
       a:hover {
         color: white;
-        background: #B2D235;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1440px) and (min-width: 1200px) {
-  .header {
-    .img-logo {
-      width: 340px;
-      height: 70px;
-    }
-    ul.menu {
-      li {
-        margin-left: 25px;
-      }
-      a:hover {
-        color: white;
-        background: #B2D235;
+        background: $color_green;
       }
     }
   }

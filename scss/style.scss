@@ -1,5 +1,5 @@
-@import 'responsive';
 @import 'variable';
+@import 'responsive';
 
 * {
   margin: 0;
@@ -16,15 +16,25 @@
     width: 100%;
     margin-left: 0;
   }
+  .img-logo {
+    width: 340px;
+    height: 70px;
+  }
   ul.menu {
+    li {
+      margin-left: 25px;
+    }
     a {
       font: bold 14px/19px Open-Sans;
       text-transform: uppercase;
       color: #505353;
       -webkit-text-stroke-width: 0.5px;
       border-radius: 17px;
+      color: white;
+      background: $color_green;
     }
   }
 }
+
 
 

@@ -4,3 +4,4 @@ $(document).ready(function(){
     $('.icon').toggleClass('fa-bars');
   });
 });
+
