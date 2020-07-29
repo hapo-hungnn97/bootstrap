@@ -1,3 +1,5 @@
+@import 'variable';
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@
 }
 
 .header {
-  .row {
+  .block-header {
     width: 100%;
     margin-left: 0;
   }
@@ -27,11 +29,12 @@
       color: #505353;
       -webkit-text-stroke-width: 0.5px;
       border-radius: 17px;
-      color: white;
-      background: $color_green;
+      &:hover {
+        color: white;
+        background: $main_color;
+      }
     }
   }
 }
 
-@import 'variable';
 @import 'responsive';

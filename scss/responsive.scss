@@ -1,3 +1,5 @@
+@import 'variable';
+
 @media only screen and (max-width: 425px) {
   .header {
     .img-logo {
@@ -9,14 +11,15 @@
       a {
         text-align: center;
         &:hover {
-          color: $color_green;
+          color: $main_color;
+          background: #FFFFFF;
         }
       }
     }
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (width: 768px) {
   .header {
     .img-logo {
       width: 300px;
@@ -32,7 +35,7 @@
     .menu {
       a:hover {
         color: white;
-        background: $color_green;
+        background: $main_color;
       }
     }
   }
