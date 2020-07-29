@@ -55,6 +55,40 @@
       }
     }
   }
+
+  .courses {
+    .content-courses {
+      height: 303px;
+      
+      .head {
+        height: 130px;
+      }
+
+      .img-courses {
+        width: 150px;
+        height: 80px;
+      }
+
+      .foot {
+        height: 170px;
+      }
+
+      .txt-content {
+        padding-top: -10px;
+        @include font_UTM(bold, 20px, #B2D235);
+      }
+      .txt-des {
+        line-height: 18px;
+        @include font_UTM(bold, 14px, #505353);
+      }
+
+      .btn-take {
+        width: 116px;
+        height: 24px;
+        @include font_UTM(bold, 10px, #FFFFFF);
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
