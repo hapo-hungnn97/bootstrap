@@ -1,0 +1,40 @@
+@import 'variable';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url('../font/OpenSans-Regular.ttf');
+}
+
+.header {
+  .block-header {
+    width: 100%;
+    margin-left: 0;
+  }
+  .img-logo {
+    width: 340px;
+    height: 70px;
+  }
+  .menu {
+    li {
+      margin-left: 25px;
+    }
+    a {
+      font: bold 14px/19px Open-Sans;
+      text-transform: uppercase;
+      color: #505353;
+      -webkit-text-stroke-width: 0.5px;
+      border-radius: 17px;
+      &:hover {
+        color: white;
+        background: $main_color;
+      }
+    }
+  }
+}
+
+@import 'responsive';
