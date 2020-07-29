@@ -10,29 +10,160 @@
   src: url('../font/OpenSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'UTM-BryantLG';
+  src: url('../font/UTM-BryantLG.ttf');
+}
+
 .header {
   .block-header {
     width: 100%;
     margin-left: 0;
   }
+
   .img-logo {
     width: 340px;
     height: 70px;
   }
+
   .menu {
     li {
       margin-left: 25px;
     }
+
     a {
-      font: bold 14px/19px Open-Sans;
       text-transform: uppercase;
       color: #505353;
       -webkit-text-stroke-width: 0.5px;
       border-radius: 17px;
+      @include font_Open(bold, 14px);
       &:hover {
         color: white;
         background: $main_color;
       }
+    }
+  }
+}
+
+.banner {
+  height: 655px;
+  background: url("../image/Rectangle-1.png") no-repeat center/cover;
+  
+  .block-banner {
+    transform: translateY(70%);
+    margin-left: 40px;
+
+    .txt-banner {
+      @include font_UTM(bold, 50px, #11114E);
+    }
+
+    .txt-title {
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM(bold, 50px, #11114E);
+    }
+
+    .txt-desc {
+      letter-spacing: -0.05em;
+      height: 50px;
+      margin-top: 10px;
+      @include font_UTM(600, 20px, #505353);
+    }
+
+    .btn-start {
+      background: $main_color;
+      border-radius: 35px;
+      -webkit-text-stroke-width: 1px;
+      padding: 15px 52px;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 25px;
+      @include font_UTM(bold, 30px, #FFFFFF);
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  
+  .block-messenger {
+    position: fixed;
+    bottom: 90px;
+    right: 35px;
+    z-index: 1;
+    @include font_Open(bold, 12px);
+    
+    .toggle-class {
+      .block-chat {
+        width: 360px;
+        height: 190px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 23px;
+      }
+
+      .img-hapo {
+        width: 28px;
+        height: 28px;
+        transform: translateY(200%);
+      }
+
+      .web-name {
+        color: #7F7F7F;
+        @include font_Open(600, 12px);
+      }
+
+      .block-alert {
+        background-color: #F1F0F0;
+        width: 250px;
+        height: 60px;
+        border-radius: 15px;
+      }
+
+      .text-alert {
+        color: #505353;
+        margin-left: 5%;
+      }
+
+      .login-mess {
+        width: 265px;
+        height: 35px;
+        background-color: #3184F7;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .txt-login {
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 3%;
+      }
+
+      .txt-chat {
+        color: #B3B3B3;
+        letter-spacing: -0.02em;
+      }
+
+      .close {
+        background-color: #C4C4C4;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+
+    .messenger {
+      background-color: #2774DF;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      cursor: pointer;
     }
   }
 }
