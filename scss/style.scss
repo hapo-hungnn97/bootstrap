@@ -1,0 +1,30 @@
+@import 'responsive';
+@import 'variable';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  src: url('../font/OpenSans-Regular.ttf');
+}
+
+.header {
+  .row {
+    width: 100%;
+    margin-left: 0;
+  }
+  ul.menu {
+    a {
+      font: bold 14px/19px Open-Sans;
+      text-transform: uppercase;
+      color: #505353;
+      -webkit-text-stroke-width: 0.5px;
+      border-radius: 17px;
+    }
+  }
+}
+
+
