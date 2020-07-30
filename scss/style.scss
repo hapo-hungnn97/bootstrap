@@ -170,22 +170,18 @@
   }
 }
 
-.courses {
-  .header-courses {
-    height: 170px;
-    background-image: linear-gradient(white, #E5E5E5);
-  }
+.color-strip {
+  height: 170px;
+  background-image: linear-gradient(white, #E5E5E5);
+}
   
-  .block-courses {
-    margin-top: -100px;
-  }
+.block-courses {
+  margin-top: -100px;
 
   .content-courses {
-    height: 470px;
     letter-spacing: -0.05em;
 
     .head {
-      height: 215px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
       border-radius: 15px 15px 0 0;
     }
@@ -193,6 +189,7 @@
     .img-courses {
       width: 200px;
       height: 125px;
+      margin: 40px 0;
     }
 
     .background-left {
@@ -208,7 +205,6 @@
     }
     
     .foot {
-      height: 255px;
       border-radius: 0 0 15px 15px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
     }
@@ -230,7 +226,7 @@
       border-radius: 22px;
       width: 200px;
       height: 42px;
-      margin-top: 22px;
+      margin: 22px 0 45px 0;
       -webkit-text-stroke-width: 1px;
       @include font_UTM(bold, 18px, #FFFFFF);
     }
