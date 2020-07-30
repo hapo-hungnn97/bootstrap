@@ -175,9 +175,7 @@
   background-image: linear-gradient(white, #E5E5E5);
 }
   
-.block-courses {
-  margin-top: -100px;
-
+%block {
   .content-courses {
     letter-spacing: -0.05em;
 
@@ -232,6 +230,42 @@
       &:hover {
         opacity: 0.8;
       }
+    }
+  }
+}
+
+.block-courses {
+  @extend %block;
+
+  margin-top: -100px; 
+}
+
+.other-courses {
+  @extend %block;
+
+  .background-left-other {
+    background-color: #24ABE2;
+  }
+
+  .background-middle-other {
+    background-color: #E14E40;
+  }
+
+  .background-right-other {
+    background-color: #1B75BB;
+  }
+
+  .title-courses {
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: 50px;
+    @include font_UTM(bold, 80px, #11114E);
+
+    hr {
+      width: 45%;
+      height: 6px;
+      margin: 15px auto;
+      background-color: #B2D235;
+      border-radius: 3px;
     }
   }
 }
