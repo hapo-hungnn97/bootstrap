@@ -229,6 +229,9 @@
       margin: 22px 0 45px 0;
       -webkit-text-stroke-width: 1px;
       @include font_UTM(bold, 18px, #FFFFFF);
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
