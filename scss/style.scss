@@ -230,8 +230,16 @@
       border-radius: 22px;
       width: 200px;
       height: 42px;
+      margin-top: 22px;
       -webkit-text-stroke-width: 1px;
       @include font_UTM(bold, 18px, #FFFFFF);
+    }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }
