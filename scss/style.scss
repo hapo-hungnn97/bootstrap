@@ -221,7 +221,7 @@
       @include font_UTM(bold, 14px, #505353);
     }
 
-    .btn-take {
+    a {
       background: #B2D235;
       box-shadow: inset 0 1.5px 2px #6F8710;
       border-radius: 22px;
@@ -229,13 +229,6 @@
       margin: 22px 0 45px 0;
       -webkit-text-stroke-width: 1px;
       @include font_UTM(bold, 18px, #FFFFFF);
-    }
-
-    a {
-      text-decoration: none;
-      &:hover {
-        opacity: 0.8;
-      }
     }
   }
 }
