@@ -76,10 +76,10 @@
       .txt-content {
         @include font_UTM(bold, 20px, #B2D235);
       }
-      
+
       .txt-des {
         line-height: 18px;
-        padding: 0px 10px;
+        padding: 0 10px;
         overflow: hidden;
         text-overflow: ellipsis;
         -webkit-line-clamp: 4;
