@@ -59,8 +59,8 @@
   .block-courses {
     .content-courses {
       .img-courses {
-        width: 150px;
         height: 80px;
+        padding: 0 25px;
         margin: 28px 0;
       }
 
@@ -81,8 +81,7 @@
       }
 
       .btn-take {
-        width: 116px;
-        height: 26px;
+        padding: 5px 20px; 
         margin: 10px 0 18px 0;
         -webkit-text-stroke-width: 0;
         @include font_UTM(bold, 10px, #FFFFFF);
@@ -161,6 +160,7 @@
       margin: 20px auto;
       
       .img-courses {
+        padding: 0 50px;
         margin: 40px 0;
       }
 
@@ -169,8 +169,7 @@
       }
 
       .btn-take {
-        width: 200px;
-        height: 42px;
+        padding: 8px 35px;
         margin: 20px 0 40px 0 ;
         -webkit-text-stroke-width: 1px;
         @include font_UTM(bold, 18px, #FFFFFF);
