@@ -268,6 +268,66 @@
       border-radius: 3px;
     }
   }
+
+  .all-courses {
+    height: 30px;
+    margin-top: 50px;
+    a {
+      text-decoration: none;
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM(bold, 40px, #90AB26);
+      &:hover {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+.learn {
+  height: 500px;
+  background: url("../image/Group7.png") no-repeat center/cover;
+
+  .txt-learn {
+    @include font_UTM(bold, 60px, #FFFFFF);
+  }
+
+  .btn-start-learn {
+    background-color: #FFFFFF;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    -webkit-text-stroke-width: 1px;
+    width: 30%;
+    padding: 10px;
+    @include font_UTM(bold, 30px, #90AB26);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.statistic {
+  .title-statistic {
+    span {
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM(bold, 80px, #11114E);
+    }
+
+    hr {
+      width: 25%;
+      height: 6px;
+      margin: 15px auto;
+      background-color: #B2D235;
+      border-radius: 3px;
+    }
+  }
+
+  .content-statistic {
+    @include font_UTM(bold, 60px, #B2D235);
+
+    .title {
+      color: #505353;
+    }
+  }
 }
 
 @import 'responsive';
