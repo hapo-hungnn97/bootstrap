@@ -149,6 +149,34 @@
       @include font_UTM(bold, 40px, #B2D235);
     }
   }
+
+  .footer {
+    .block-foot {
+      margin: 20px 0;
+    }
+
+    .logo {
+      .txt-logo {
+        margin-left: 0;
+        line-height: 25px;
+        font-size: 16px;
+      }
+    }
+
+    .menu {
+      ul {
+        margin: 0 12px; 
+      }
+
+      li {
+        margin: 10px 0;
+      }
+
+      a {
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -271,6 +299,27 @@
       hr {
         width: 40%;
       }
+    }
+  }
+
+  .footer {
+    height: 370px;
+
+    .logo {
+      .txt-logo {
+        line-height: 17px;
+        font-size: 14px;
+      }
+    }
+    
+    .menu {
+      ul {
+        margin: -40px 0 40px 0;
+      }
+    }
+
+    .contact {
+      padding-top: 10px;
     }
   }
 }
