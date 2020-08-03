@@ -333,4 +333,64 @@
   }
 }
 
+.footer {
+  background-color: #505353;
+  
+  .block-foot {
+    width: 100%;
+    margin: 50px 0;
+    letter-spacing: -0.05em;
+  }
+
+  .logo {
+    .txt-logo {
+      margin: -20px 0 0 90px;
+      @include font_UTM(normal, 20px, #FFFFFF);
+    }
+  }
+
+  .menu {
+    ul {
+      margin: 0 30px; 
+    }
+
+    li {
+      list-style-type: none;
+      margin: 10px 0;
+    }
+
+    a {
+      text-decoration: none;
+      @include font_UTM(bold, 20px, #FFFFFF);
+      &:hover {
+        -webkit-text-stroke-width: 1px;
+      }
+    }
+  }
+
+  .contact {
+    span {
+      display: none;
+    }
+    
+    a {
+      color: #FFFFFF;
+      &:hover {
+        transform: scale(1.1);
+        transition: all ease-in-out 0.5s;
+        margin-left: -40px;
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.copy-rights {
+  background-color: #454545;
+  padding: 7px 0;
+  @include font_UTM(bold, 15px, #FFFFFF);
+}
+
 @import 'responsive';
