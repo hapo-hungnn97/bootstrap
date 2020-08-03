@@ -272,7 +272,7 @@
   .all-courses {
     height: 30px;
     margin-top: 50px;
-    
+
     a {
       text-decoration: none;
       -webkit-text-stroke-width: 2px;
@@ -285,10 +285,10 @@
 }
 
 .learn {
-  height: 500px;
   background: url("../image/Group7.png") no-repeat center/cover;
 
   .txt-learn {
+    padding-top: 150px;
     @include font_UTM(bold, 60px, #FFFFFF);
   }
 
@@ -303,6 +303,10 @@
     &:hover {
       opacity: 0.8;
     }
+  }
+
+  a {
+    margin-bottom: 160px;
   }
 }
 

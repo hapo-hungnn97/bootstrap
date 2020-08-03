@@ -120,14 +120,17 @@
   }
 
   .learn {
-    height: 267px;
-
     .txt-learn {
       font-size: 35px;
+      padding-top: 50px;
     }
 
     .btn-start-learn {
       font-size: 20px;
+    }
+
+    a {
+      margin-bottom: 60px;
     }
   }
 
@@ -248,15 +251,18 @@
   }
 
   .learn {
-    height: 200px;
-    
     .txt-learn {
       font-size: 23px;
+      padding-top: 30px;
     }
 
     .btn-start-learn {
       font-size: 18px;
       width: 60%;
+    }
+
+    a {
+      margin-bottom: 50px;
     }
   }
 }
