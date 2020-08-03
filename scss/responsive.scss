@@ -100,6 +100,54 @@
       margin-bottom: 40px;
       @include font_UTM(bold, 50px, #11114E);
     }
+
+
+    .all-courses {
+      margin-top: 25px;
+
+      a {
+        font-size: 28px;
+        &:hover {
+          font-size: 30px;
+        }
+      }
+
+      img {
+        width: 34px;
+        height: 19px;
+      }
+    }
+  }
+
+  .learn {
+    .txt-learn {
+      font-size: 35px;
+      padding-top: 50px;
+    }
+
+    .btn-start-learn {
+      font-size: 20px;
+    }
+
+    a {
+      margin-bottom: 60px;
+    }
+  }
+
+  .statistic {
+    .title-statistic {
+      span {
+        @include font_UTM(bold, 50px, #11114E);
+      }
+
+      hr {
+        width: 25%;
+      }
+    }
+
+    .content-statistic {
+      @include font_UTM(bold, 40px, #B2D235);
+    }
   }
 }
 
@@ -199,6 +247,30 @@
     .title-courses {
       margin-bottom: 20px;
       @include font_UTM(bold, 40px, #11114E);
+    }
+  }
+
+  .learn {
+    .txt-learn {
+      font-size: 23px;
+      padding-top: 30px;
+    }
+
+    .btn-start-learn {
+      font-size: 18px;
+      width: 60%;
+    }
+
+    a {
+      margin-bottom: 50px;
+    }
+  }
+
+  .statistic {
+    .title-statistic {
+      hr {
+        width: 40%;
+      }
     }
   }
 }
