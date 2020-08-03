@@ -283,6 +283,36 @@
   }
 }
 
+.reason {
+  background: url("../image/Rectangle17.png") no-repeat center/cover;
+  margin-top: 120px;
+
+  .block-reason {
+    padding: 0;
+  }
+
+  .head-reason {
+    margin-top: -230px;
+  }
+
+  .title-reason {
+    @include font_UTM(bold, 70px, #FFFFFF);
+  }
+
+  .text-reason {
+    @include font_UTM(normal, 20px, #FFFFFF);
+    line-height: 25px;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  .right-reason {
+    margin-top: -200px;
+  }
+}
+
 .learn {
   background: url("../image/Group7.png") no-repeat center/cover;
 

@@ -119,6 +119,26 @@
     }
   }
 
+  .reason {
+    .head-reason {
+      margin-top: -150px;
+    }
+
+    .title-reason {
+      font-size: 50px;
+    }
+
+    .text-reason {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.05em;
+    }
+
+    .right-reason {
+      margin: 0;
+    }
+  }
+
   .learn {
     .txt-learn {
       font-size: 35px;
@@ -275,6 +295,22 @@
     .title-courses {
       margin-bottom: 20px;
       @include font_UTM(bold, 40px, #11114E);
+    }
+  }
+
+  .reason {
+    .head-reason {
+      margin-top: -100px;
+    }
+
+    .title-reason {
+      font-size: 40px;
+      margin: 20px 0 0 -40px;
+    }
+
+    .text-reason {
+      font-size: 14px;
+      line-height: 17px;
     }
   }
 
