@@ -139,6 +139,38 @@
     }
   }
 
+  .feedback {
+    .title-feedback {
+      .txt-title {
+        font-size: 50px;
+      }
+
+      .txt-decs {
+        line-height: 22px;
+        @include font_UTM(normal, 18px, #505353);
+      }
+    }
+
+    .element-cmt {
+      width: 80%;
+      height: 80%;
+    }
+
+    .img-account {
+      margin-left: 100px;
+    }
+
+    .controls-top {
+      .prev {
+        margin-left: 64px;
+      }
+
+      .next {
+        margin-right: 64px;
+      }
+    }
+  }
+
   .learn {
     .txt-learn {
       font-size: 35px;
@@ -311,6 +343,46 @@
     .text-reason {
       font-size: 14px;
       line-height: 17px;
+    }
+  }
+
+  .feedback {
+    .title-feedback {
+      .txt-title {
+        font-size: 40px;
+      }
+
+      hr {
+        width: 40%;
+      }
+
+      .txt-decs {
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        @include font_UTM(normal, 19px, #505353);
+      }
+    }
+
+    .element-cmt {
+      width: 95%;
+      background: url("../image/Union.png") no-repeat;
+      background-size: 100% 95%;
+    }
+
+    .img-account {
+      margin-left: 30px;
+    }
+
+    .controls-top {
+      top: -195px;
+
+      .prev {
+        margin-left: 0;
+      }
+
+      .next {
+        margin-right: 0;
+      }
     }
   }
 
