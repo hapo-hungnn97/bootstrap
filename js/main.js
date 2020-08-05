@@ -18,6 +18,8 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 2,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
         responsive: [
