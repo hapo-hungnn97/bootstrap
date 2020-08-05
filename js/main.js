@@ -11,5 +11,22 @@ $(document).ready(function(){
     $('.close').click(function() {
         $('.toggle-class').hide();
     });
+
+    $('.slide-block').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        responsive: [
+                        {
+                            breakpoint: 980,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        },
+                    ]
+    });
 });
 

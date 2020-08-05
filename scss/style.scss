@@ -313,6 +313,102 @@
   }
 }
 
+.feedback {
+  .title-feedback {
+    letter-spacing: -0.02em;
+
+    .txt-title {
+      -webkit-text-stroke-width: 2px;
+      @include font_UTM(bold, 80px, #11114E);
+    }
+
+    hr {
+      width: 30%;
+      height: 6px;
+      margin: 15px auto;
+      background-color: #B2D235;
+      border-radius: 3px;
+    }
+
+    .txt-decs {
+      margin-top: -100px;
+      @include font_UTM(normal, 25px, #505353);
+    }
+  }
+
+  .slide-block {
+    .block-cmt {
+      padding: 0;
+    }
+
+    .carousel-item {
+      margin-right: 0;
+    }
+  }
+
+  .element-cmt {
+    width: 100%;
+    height: 100%;
+    background: url("../image/Union.png") no-repeat center/cover;
+    
+    .hr {
+      width: 4px;
+      height: 70%;
+    }
+
+    .cmt {
+      line-height: 20px;
+      letter-spacing: -0.05em;
+      padding: 50px 0 60px 0;
+      @include font_UTM(normal, 16px, #000000);
+    }
+  }
+
+  .element-account {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .txt-name {
+      @include font_UTM(bold, 20px, #11114E);
+    }
+
+    .txt-lang {
+      @include font_UTM(bold, 16px, #505353);
+    }
+
+    i {
+      font-size: 14px;
+      color: #F2C54F;
+    }
+  }
+
+  .controls-top {
+    top: -184px;
+
+    a {
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      border: 0.5px solid #C4C4C4;
+      padding-left: -40px;
+    }
+
+    i {
+      font-size: 12px;
+      padding: 0 2px;
+    }
+
+    .prev {
+      margin-left: -8px;
+    }
+
+    .next {
+      margin-right: -8px;
+    }
+  }
+}
+
 .learn {
   background: url("../image/Group7.png") no-repeat center/cover;
 
