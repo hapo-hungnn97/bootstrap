@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="scss/style.css">    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
 </head>
 <body>   
     <div class="header navbar navbar-expand-sm container-fluid">
@@ -192,19 +194,22 @@
         </div>
     </div>
     <div class="feedback container">
-        <div class="title-feedback mt-xl-5 mt-md-5 mt-5 text-center">
+        <div class="title-feedback mt-5 text-center">
             <span class="txt-title">Feedback</span>
             <hr/>
             <span class="txt-decs">
-                What other students turned professionals have to say about us after
-                <br>learning with us and reaching their goals
+                What other students turned professionals have to say about us 
+                <br class="d-md-block d-none"> 
+                after learning with us and reaching their goals
             </span>
         </div>
-        <div class="slide-block row mt-lg-5">
-            <div class="block-cmt d-flex flex-column col-lg-6">
-                <div class="element-cmt d-flex flex-row">
-                    <div class="hr my-auto ml-lg-4"></div>
-                    <div class="cmt ml-lg-2">
+        <div class="slide-block row mt-5">
+            <div class="block-cmt d-flex flex-column col-lg-6 col-12">
+                <div class="element-cmt d-flex flex-row mx-auto">
+                    <div class="pt-4">
+                        <img class="hr ml-4" src="image/Rectangle21.png" alt="">
+                    </div>
+                    <div class="cmt ml-2">
                         <p> “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course.
                         <br>
                             Thank you Eddie Bryan.”
@@ -212,8 +217,8 @@
                     </div>
                 </div>
                 <div class="element-account d-flex flex-row">
-                    <img class="img-fluid ml-xl-3" src="image/Ellipse1.png" alt="">
-                    <div class="block-infor ml-xl-2 d-flex flex-column">
+                    <img class="img-fluid img-account ml-lg-3" src="image/Ellipse1.png" alt="">
+                    <div class="block-infor ml-2 d-flex flex-column">
                         <span class="txt-name">Hoang Anh Nguyen</span>
                         <span class="txt-lang">PHP</span>
                         <span>
@@ -226,10 +231,12 @@
                     </div>
                 </div>
             </div>
-            <div class="block-cmt d-flex flex-column col-lg-6">
-                <div class="element-cmt d-flex flex-row">
-                    <div class="hr my-auto ml-lg-4"></div>
-                    <div class="cmt ml-lg-2">
+            <div class="block-cmt d-flex flex-column col-lg-6 col-12">
+                <div class="element-cmt d-flex flex-row mx-auto">
+                    <div class="pt-4">
+                        <img class="hr ml-4" src="image/Rectangle21.png" alt="">
+                    </div>
+                    <div class="cmt ml-2">
                         <p> “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course.
                         <br>
                         Thank you Eddie Bryan.”
@@ -237,8 +244,8 @@
                     </div>
                 </div>
                 <div class="element-account d-flex flex-row">
-                    <img class="img-fluid ml-xl-3" src="image/Ellipse1.png" alt="">
-                    <div class="block-infor ml-xl-2 d-flex flex-column">
+                    <img class="img-fluid img-account ml-lg-3" src="image/Ellipse1.png" alt="">
+                    <div class="block-infor ml-2 d-flex flex-column">
                         <span class="txt-name">Tuan Tran Hoang</span>
                         <span class="txt-lang">Python</span>
                         <span>
@@ -251,6 +258,37 @@
                     </div>
                 </div>
             </div>
+            <div class="block-cmt d-flex flex-column col-lg-6 col-12">
+                <div class="element-cmt d-flex flex-row mx-auto">
+                    <div class="pt-4">
+                        <img class="hr ml-4" src="image/Rectangle21.png" alt="">
+                    </div>
+                    <div class="cmt ml-2">
+                        <p> “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course.
+                        <br>
+                        Thank you Eddie Bryan.”
+                        </p>
+                    </div>
+                </div>
+                <div class="element-account d-flex flex-row">
+                    <img class="img-fluid img-account ml-lg-3" src="image/Ellipse1.png" alt="">
+                    <div class="block-infor ml-2 d-flex flex-column">
+                        <span class="txt-name">Tuan Tran Hoang</span>
+                        <span class="txt-lang">Python</span>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls-top row d-flex justify-content-between position-relative">
+          <a class="btn-sm prev"><i class="fas fa-chevron-left"></i></a>
+          <a class="btn-sm next"><i class="fas fa-chevron-right"></i></a>
         </div>
     </div>
     <div class="learn container-fluid mt-5 text-center d-flex flex-column justify-content-center align-items-center">
@@ -329,6 +367,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="css/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
