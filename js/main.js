@@ -19,14 +19,14 @@ $(document).ready(function(){
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
         responsive: [
-                        {
-                            breakpoint: 980,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        },
-                    ]
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 });
 
