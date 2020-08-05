@@ -12,6 +12,8 @@ $(document).ready(function(){
         $('.toggle-class').hide();
     });
 
+    $('[data-toggle="tooltip"]').tooltip();
+
     $('.slide-block').slick({
         infinite: true,
         slidesToShow: 2,
