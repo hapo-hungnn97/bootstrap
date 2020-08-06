@@ -23,10 +23,8 @@
   }
 
   .banner {
-    height: 350px;
-
     .block-banner {
-      transform: translateY(25%);
+      padding: 82px 0;
       margin-left: 30px;
 
       .txt-banner {
@@ -95,6 +93,10 @@
 
   .other-courses {
     @extend %block-md;
+    
+    .img-fix {
+      padding: 8px 33px !important;
+    }
 
     .title-courses {
       margin-bottom: 40px;
@@ -251,12 +253,12 @@
   }
 
   .banner {
-    height: 200px;
+    height: 210px;
     display: flex;
     justify-content: center;
 
     .block-banner {
-      transform: translateY(100%);
+      transform: translateY(63%);
       margin-left: 0;
 
       .txt-banner {
@@ -323,6 +325,10 @@
 
   .other-courses {
     @extend %block-sm;
+
+    .img-fix {
+      padding: 0px 50px !important;
+    }
 
     .title-courses {
       margin-bottom: 20px;
