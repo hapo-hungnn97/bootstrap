@@ -54,11 +54,10 @@
 }
 
 .banner {
-  height: 655px;
   background: url("../image/Rectangle-1.png") no-repeat center/cover;
   
   .block-banner {
-    transform: translateY(70%);
+    padding: 285px 0;
     margin-left: 40px;
 
     .txt-banner {
@@ -250,6 +249,10 @@
 
 .other-courses {
   @extend %block;
+
+  .img-fix {
+    padding: 16px 72px !important;
+  }
 
   .background-left-other {
     background-color: #24ABE2;

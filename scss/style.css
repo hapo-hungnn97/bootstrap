@@ -41,12 +41,10 @@
 }
 
 .banner {
-  height: 655px;
   background: url("../image/Rectangle-1.png") no-repeat center/cover;
 }
 .banner .block-banner {
-  -webkit-transform: translateY(70%);
-          transform: translateY(70%);
+  padding: 285px 0;
   margin-left: 40px;
 }
 .banner .block-banner .txt-banner {
@@ -219,6 +217,9 @@
   margin-top: -100px;
 }
 
+.other-courses .img-fix {
+  padding: 16px 72px !important;
+}
 .other-courses .background-left-other {
   background-color: #24ABE2;
 }
@@ -468,12 +469,8 @@
     background: #B2D235;
   }
 
-  .banner {
-    height: 350px;
-  }
   .banner .block-banner {
-    -webkit-transform: translateY(25%);
-            transform: translateY(25%);
+    padding: 82px 0;
     margin-left: 30px;
   }
   .banner .block-banner .txt-banner {
@@ -530,6 +527,9 @@
     color: #FFFFFF;
   }
 
+  .other-courses .img-fix {
+    padding: 8px 33px !important;
+  }
   .other-courses .title-courses {
     margin-bottom: 40px;
     font: bold 50px UTM-BryantLG;
@@ -643,7 +643,7 @@
   }
 
   .banner {
-    height: 200px;
+    height: 210px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -652,8 +652,8 @@
             justify-content: center;
   }
   .banner .block-banner {
-    -webkit-transform: translateY(100%);
-            transform: translateY(100%);
+    -webkit-transform: translateY(63%);
+            transform: translateY(63%);
     margin-left: 0;
   }
   .banner .block-banner .txt-banner {
@@ -711,6 +711,9 @@
     color: #FFFFFF;
   }
 
+  .other-courses .img-fix {
+    padding: 0px 50px !important;
+  }
   .other-courses .title-courses {
     margin-bottom: 20px;
     font: bold 40px UTM-BryantLG;
