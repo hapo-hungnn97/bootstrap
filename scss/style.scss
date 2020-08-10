@@ -576,6 +576,9 @@
       box-shadow: inset 0px 2px 4px #6F8710;
       border-radius: 22px;
       padding: 8px 30px;
+      &:hover {
+        opacity: 0.8;
+      }
     }
 
     a {
@@ -609,6 +612,10 @@
       border-radius: 3px;
       margin-left: 10px;
       @include font_Open(bold, 18px);
+      &:hover {
+        background-color: #B2D235;
+        color: #FFFFFF;
+      }
     }
   }
 }
