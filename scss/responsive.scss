@@ -231,6 +231,44 @@
       }
     }
   }
+
+  .courses-list {
+    .courses-search {
+      .feedback {
+        left: 29%;
+      }
+    }
+
+    .block-content {
+      .block-remove {
+        padding: 0 50px 0 5px;
+      }
+
+      .courses-title{
+        font-size: 20px;
+      }
+
+      .courses-desc {
+        font-size: 16px;
+      }
+
+      .btn-more {
+        padding: 6px 22px;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .data {
+        font-size: 22px;
+      }
+    }
+
+    .pagination {
+      padding-left: 53%;
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -434,6 +472,26 @@
 
     .contact {
       margin-top: -35px;
+    }
+  }
+
+  .courses-list {
+    .courses-search {
+      .feedback {
+        left: 19%;
+      }
+
+      .width-search {
+        width: 146%;
+      }
+    }
+
+    .pagination {
+      padding-left: 21%;
+
+      a {
+        font-size: 16px;
+      }
     }
   }
 }
