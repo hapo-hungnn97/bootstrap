@@ -1,35 +1,24 @@
 /*
 Error: Undefined variable: "$main_color".
-        on line 14 of C:\Users\User\Desktop\Bootstrap_Responsive\scss\responsive.scss
+        on line 20 of C:\Users\User\Desktop\bootstrap\scss\responsive.scss
 
-9:     }
-10:     .menu {
-11:       a {
-12:         text-align: center;
-13:         &:hover {
-14:           color: $main_color;
-15:           background: #FFFFFF;
-16:         }
-17:       }
-18:     }
-19:   }
+15:     }
+16: 
+17:     .menu {
+18:       a:hover {
+19:         color: white;
+20:         background: $main_color;
+21:       }
+22:     }
+23:   }
+24: 
+25:   .banner {
 
 Backtrace:
-C:\Users\User\Desktop\Bootstrap_Responsive\scss\responsive.scss:14
+C:\Users\User\Desktop\bootstrap\scss\responsive.scss:20
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -109,4 +98,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main_color\".\A         on line 14 of C:\Users\User\Desktop\Bootstrap_Responsive\scss\responsive.scss\A \A 9:     }\A 10:     .menu {\A 11:       a {\A 12:         text-align: center;\A 13:         &:hover {\A 14:           color: $main_color;\A 15:           background: #FFFFFF;\A 16:         }\A 17:       }\A 18:     }\A 19:   }"; }
+  content: "Error: Undefined variable: \"$main_color\".\A         on line 20 of C:\Users\User\Desktop\bootstrap\scss\responsive.scss\A \A 15:     }\A 16: \A 17:     .menu {\A 18:       a:hover {\A 19:         color: white;\A 20:         background: $main_color;\A 21:       }\A 22:     }\A 23:   }\A 24: \A 25:   .banner {"; }

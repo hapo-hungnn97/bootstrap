@@ -32,5 +32,24 @@ $(document).ready(function(){
             },
         ]
     });
+
+    $('.menu-login').click(function() {
+        $('.modal-title-login').css({'color':'#FFFFFF','background':'#B2D235'});
+    });
+
+    $('.modal-title-login').click(function() {
+        $('#register').hide();
+        $('#login').show();
+        $('.modal-title-register').css({'color':'#B2D235','background':'#FFFFFF'});
+        $('.modal-title-login').css({'color':'#FFFFFF','background':'#B2D235'});
+    });
+
+    $('.modal-title-register').click(function() {
+        $('#login').hide();
+        $('#register').removeClass('d-none');
+        $('#register').show();
+        $('.modal-title-login').css({'color':'#B2D235','background':'#FFFFFF'});
+        $('.modal-title-register').css({'color':'#FFFFFF','background':'#B2D235'});
+    });
 });
 
